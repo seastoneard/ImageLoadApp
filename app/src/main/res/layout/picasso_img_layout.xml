@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/picasso_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/picasso_btn0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简单的Picasso加载图片" />
+    <Button
+        android:id="@+id/picasso_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="常用的Picasso加载图片" />
+
+    <Button
+        android:id="@+id/picasso_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Picasso加载列表图片" />
+
+
+</LinearLayout>
