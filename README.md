@@ -1,6 +1,5 @@
 # ImageLoadApp
 
-
 <!-- Baidu Button BEGIN -->
 <div id="article_content" class="article_content">
 
@@ -91,7 +90,7 @@
 </strong></span></p>
 <p style="color:rgb(51,51,51); font-family:Arial; font-size:14px"><br>
 </p>
-<p style="color:rgb(51,51,51); font-family:Arial; font-size:14px"><span style="color:rgb(51,51,51); font-family:宋体; font-size:14px; text-align:center; background-color:rgb(249,249,249)">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img  src="http://img.blog.csdn.net/20170401160943460?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhoX2NzZG5fYXJk/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" width="300" height="400" alt=""><br>
+<p style="color:rgb(51,51,51); font-family:Arial; font-size:14px"><span style="color:rgb(51,51,51); font-family:宋体; font-size:14px; text-align:center; background-color:rgb(249,249,249)">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img src="http://img.blog.csdn.net/20170401160943460?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvemhoX2NzZG5fYXJk/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" width="300" height="400" alt=""><br>
 </span></p>
 <p style="color:rgb(51,51,51); font-family:Arial; font-size:14px"><span style="color:rgb(51,51,51); font-family:宋体; font-size:14px; text-align:center; background-color:rgb(249,249,249)"><br>
 </span></p>
@@ -198,8 +197,9 @@
     //gif显示
     private void test1() {
         Glide.with(this)
-                .load(&quot;https://timgsa.baidu.com/timg?      image&amp;quality=80&amp;size=b9999_10000&amp;sec=1491037864865&amp;
-                di=cc8f78a7e5c1d359839cec3463123b47&amp;imgtype=0&amp;src=http%3A%2F%2Fi.zeze.
+                .load(&quot;https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;
+                sec=1491037864865&amp;di=cc8f78a7e5c1d359839cec3463123b47&amp;
+                imgtype=0&amp;src=http%3A%2F%2Fi.zeze.
                 com%2Fattachment%2Fforum%2F201501%2F29%2F181236dyjtsu2qinms5qjz.jpg&quot;)
                 .asGif() //判断加载的url资源是否为gif格式的资源
                 .placeholder(R.mipmap.ic_launcher) // 预加载图片
@@ -251,8 +251,7 @@
             @Override
             protected void setResource(Bitmap resource) {
                 RoundedBitmapDrawable circularBitmapDrawable =
-                        RoundedBitmapDrawableFactory.create
-                        (GildeActivity.this.getResources(), resource);
+                        RoundedBitmapDrawableFactory.create(GildeActivity.this.getResources(), resource);
                 circularBitmapDrawable.setCircular(true);
                 img.setImageDrawable(circularBitmapDrawable);
             }
@@ -266,8 +265,11 @@
 
 <p><br>
 </p>
+<p><br>
+</p>
    
 </div>
+
 
 
 <!-- Baidu Button END -->
