@@ -116,7 +116,7 @@
 <p style="color:rgb(51,51,51); font-family:Arial; font-size:14px"><br>
 </p>
 <p style="color:rgb(51,51,51); font-family:Arial; font-size:14px"><br>
-<strong>设计知识：</strong><br>
+<strong>涉及知识：</strong><br>
 </p>
 <blockquote style="margin:0 0 0 40px; border:none; padding:0px">
 <p style="color:rgb(51,51,51); font-family:Arial; font-size:14px">1.注解式开发&#43;(Commonadapter)万能适配器使用</p>
@@ -197,9 +197,9 @@
     //gif显示
     private void test1() {
         Glide.with(this)
-                .load(&quot;https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;
-                sec=1491037864865&amp;di=cc8f78a7e5c1d359839cec3463123b47&amp;
-                imgtype=0&amp;src=http%3A%2F%2Fi.zeze.
+                .load(&quot;https://timgsa.baidu.com/timg?image&amp;quality=80&amp;
+                size=b9999_10000&amp;sec=1491037864865&amp;di=cc8f78a7e5c1d359839cec3463123b47
+                &amp;imgtype=0&amp;src=http%3A%2F%2Fi.zeze.
                 com%2Fattachment%2Fforum%2F201501%2F29%2F181236dyjtsu2qinms5qjz.jpg&quot;)
                 .asGif() //判断加载的url资源是否为gif格式的资源
                 .placeholder(R.mipmap.ic_launcher) // 预加载图片
